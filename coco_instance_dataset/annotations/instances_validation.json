@@ -1,0 +1,21 @@
+{
+  "info": {
+    "description": "Converted from OneAI semantic segmentation masks",
+    "version": "1.0"
+  },
+  "licenses": [],
+  "images": [],
+  "annotations": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "scratch",
+      "supercategory": "defect"
+    },
+    {
+      "id": 2,
+      "name": "fabric wear",
+      "supercategory": "defect"
+    }
+  ]
+}

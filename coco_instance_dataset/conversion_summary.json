@@ -1,0 +1,34 @@
+{
+  "source_project": "C:\\Users\\LeonBeier\\Downloads\\EW_26_Super\\EW_26_Super",
+  "source_config": "C:\\Users\\LeonBeier\\Downloads\\EW_26_Super\\EW_26_Super\\EW_26_Super.oneai",
+  "output_dir": "C:\\Users\\LeonBeier\\Downloads\\EW_26_Super\\EW_26_Super\\coco_instance_dataset",
+  "categories": [
+    {
+      "id": 1,
+      "name": "scratch",
+      "exclude_from_training": false
+    },
+    {
+      "id": 2,
+      "name": "fabric wear",
+      "exclude_from_training": true
+    }
+  ],
+  "splits": {
+    "Train": {
+      "images_exported": 233,
+      "images_skipped_missing_mask": 13,
+      "annotations_exported": 306
+    },
+    "Validation": {
+      "images_exported": 0,
+      "images_skipped_missing_mask": 0,
+      "annotations_exported": 0
+    },
+    "Test": {
+      "images_exported": 0,
+      "images_skipped_missing_mask": 0,
+      "annotations_exported": 0
+    }
+  }
+}
