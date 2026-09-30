@@ -1,0 +1,14 @@
+{
+  "one_ai_model.onnx": {
+    "bytes": 1157553,
+    "sha256": "4d551a018bca57b33d59ae121bf5d46e75a151dc689d411fea0a8f084fa12512"
+  },
+  "original_probability.onnx": {
+    "bytes": 1157627,
+    "sha256": "330f77f876da60a70b360658c01c3647028e83d679b322d9a18cc714a742a61b"
+  },
+  "scratch_lite.onnx": {
+    "bytes": 1174373,
+    "sha256": "5abdb754f4d74c0a680605d5c8cbaf9b8a24f7291176cd335b9bcaa82e670ab4"
+  }
+}
