@@ -1,0 +1,7 @@
+numpy
+opencv-python
+onnxruntime
+torch
+torchvision
+onnx
+ml_dtypes

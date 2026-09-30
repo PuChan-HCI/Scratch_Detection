@@ -1,0 +1,85 @@
+﻿スクラッチ検出モデル 実行手順・評価結果
+
+作成日: 2026-09-30
+元データ: D:\InnCoreTech\Scratch_Detection
+既存 one_ai_model.onnx および元のプログラムは変更していません。
+判定: 全体Diceでは既存モデルを超えていません。新モデルは改良候補であり、既存モデルより高精度という条件は未達です。
+
+評価結果（33画像、開発用ホールドアウト）
+全体 Dice: 既存 71.45% → 新モデル 61.85%
+全体 IoU: 既存 55.59% → 新モデル 44.77%
+画素 Precision: 既存 70.52% → 新モデル 59.98%
+画素 Recall: 既存 72.41% → 新モデル 63.84%
+小さな傷の注釈画素 Recall: 既存 70.68% → 新モデル 69.47%
+細い傷の注釈画素 Recall: 既存 60.28% → 新モデル 85.56%
+誤検出画素: 既存 4264 → 新モデル 5999
+感度優先の参考設定: --threshold 0.1（検証画像のF2最大で選択）
+感度優先時: Dice 58.99% / Precision 49.42% / Recall 73.16%。
+感度優先時の小さな傷の画素Recall 80.18% / 細い傷 89.50%。
+対象: 傷17個、小さな傷12個、細い傷3個（重複カテゴリあり）。
+傷の25%以上の画素を捉えた場合の個数単位検出率は evaluation.json を参照。
+これらは検出個数の率と傷の画素再現率を区別して解釈してください。
+小さな傷: 注釈マスク面積1024画素以下。
+細い傷: 2×面積÷外周長が6画素以下。手作業による細さ分類ではありません。
+主指標は注釈ポリゴンをOpenCVでラスタライズした二値マスクとの画素比較です。
+旧モデル比較は元スクリプトのマスク処理を再現。矩形描画の面積40フィルターは画素マスクを変えません。
+新モデルの表示時3画素フィルター適用後も evaluation.json に別途記録。
+
+評価の限界
+元の233画像から学習143・検証33・評価33・境界除外24に分割。
+撮影時刻の間隔で4区間に分け、区間内の後半を検証・評価にし、境界3枚を除外。
+完全重複ファイルは分割間にありませんが、同じ被写体・撮影系列です。
+元モデルがどの画像で学習されたか不明です。元モデル側のデータ漏洩は排除できません。
+評価後に追加学習およびタイルサイズを変更しているため、厳密な未閲覧の最終テストではありません。
+モデルと閾値の選択自体は検証Diceのみで実施しました。
+別製品・別照明への汎化、小さな傷全般への優位性は保証できません。
+
+実行方法
+このフォルダー内の run_video.bat をダブルクリックしてください。
+既定動画 video_one_ai.mp4 をGPU版の同一モデルで処理し、同じフォルダーに scratch_detail_result.mp4 と .jsonl を保存します。
+GPUが使えない場合はCPU版へ切り替わります。CarDamage環境にPyTorchが必要です（このPCでは確認済み）。
+別動画は run_video.bat にドラッグ＆ドロップできます。
+長い動画は処理に時間がかかります。実測CPU推論: 約0.80秒/画像（評価画像）。
+
+コマンドプロンプトでこのフォルダーへ移動して実行する場合:
+call "C:\Users\PrimaLab\anaconda3\Scripts\activate.bat" CarDamage
+python detect_scratches.py --model scratch_detail_best.pt --device auto --input "D:\InnCoreTech\Scratch_Detection\video_one_ai.mp4" --output "scratch_detail_result.mp4"
+
+短時間の動作確認:
+python detect_scratches.py --input "D:\InnCoreTech\Scratch_Detection\video_one_ai.mp4" --output "preview.mp4" --max-frames 30
+
+画像も --input 入力.png --output 結果.png で処理できます。
+既定閾値: 0.8（検証画像で選択）。--threshold で変更可能です。
+閾値を下げると反応は増えますが誤検出も増える可能性があります。変更後は実画像で確認してください。
+最小領域: --min-pixels 3。細い傷を消すモルフォロジー処理は行いません。
+このスクリプトは音声を保持しません。
+
+モデル仕様
+scratch_detail.onnx: RGB float32 NCHW [1,3,512,512]、入力0～1。
+正規化はモデル内部。出力: float32確率 [1,1,512,512]。
+512×512の元解像度タイルを384画素間隔で処理し、重なりを平均。
+元の visualize_scratches.py はクラスID出力を想定しているため、単純なファイル置換では使用できません。
+学習: ImageNet事前学習ResNet18 + 全解像度出力デコーダ、傷領域重点サンプリング、回転・反転・明るさ拡張。
+損失: 正例重み3のBCE + Dice。scratch以外のfabric wear注釈は損失・評価から除外。
+ONNX checker検証済み。PyTorchとの差の最大絶対値: 1.3e-07。
+ONNX SHA256: 5f4af1176b575b534f538894cb9e40f2bebce01c0c4d244e0434c75a03f6f1bc
+
+再学習例
+CUDA対応PyTorch、torchvisionと requirements-training.txt のライブラリが必要です。
+既存CarDamage環境で実行しました。torch 2.13.0+cu132 / torchvision 0.28.0+cu132 / OpenCV 5.0.0 / numpy 2.5.3 / onnxruntime 1.30.0。
+ResNet18初期重み: ユーザーフォルダー .cache/torch/hub/checkpoints/resnet18-f37072fd.pth を使用。
+python train_scratch.py --epochs 24 --steps 80
+python evaluate_export.py
+上記は512画素での新規学習例です。納品モデルは320画素で12エポック学習・低学習率24エポックの最良重みから、512画素・BF16・勾配制限1.0・学習率0.00003で24エポック調整しました。
+学習履歴のエポック番号は各段階の実行番号であり、採用した重みが全ての前段階エポックを引き継ぐわけではありません。
+再実行はこのフォルダーのモデル・評価を上書きするので必要なら別フォルダーへコピーしてください。
+採用ログエポック: 51。学習履歴と画像分割は training_history.json / split_manifest.json を参照。
+
+ファイル
+scratch_detail.onnx / scratch_detail.json: 推論モデルと設定（セットで保持）
+scratch_detail_best.pt / scratch_model.py: 学習済みPyTorch重みと構造
+detect_scratches.py / run_video.bat: 実行用
+comparison_*.jpg: 左上入力、右上注釈、左下既存、右下新モデル
+scratch_preview.mp4: 既定動画の先頭120フレームをGPUで処理した動作確認用プレビュー
+evaluation.json: 全評価指標
+data_audit.json: 元モデルのハッシュと重複監査

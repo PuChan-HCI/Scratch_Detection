@@ -1,0 +1,62 @@
+{
+  "test_images": 33,
+  "baseline_labels": [
+    0,
+    1
+  ],
+  "baseline_raw": {
+    "precision": 0.7051991150442478,
+    "recall": 0.7241232429362487,
+    "dice": 0.7145359019264448,
+    "iou": 0.555858310626703,
+    "fp_pixels": 4264,
+    "object_recall": {
+      "all": {
+        "hits": 17,
+        "total": 17,
+        "recall": 1.0
+      },
+      "small": {
+        "hits": 12,
+        "total": 12,
+        "recall": 1.0
+      },
+      "thin": {
+        "hits": 3,
+        "total": 3,
+        "recall": 1.0
+      }
+    }
+  },
+  "baseline_original_postprocess": {
+    "precision": 0.7051991150442478,
+    "recall": 0.7241232429362487,
+    "dice": 0.7145359019264448,
+    "iou": 0.555858310626703,
+    "fp_pixels": 4264,
+    "object_recall": {
+      "all": {
+        "hits": 17,
+        "total": 17,
+        "recall": 1.0
+      },
+      "small": {
+        "hits": 12,
+        "total": 12,
+        "recall": 1.0
+      },
+      "thin": {
+        "hits": 3,
+        "total": 3,
+        "recall": 1.0
+      }
+    }
+  },
+  "limitations": [
+    "Original model training provenance unknown; it may have trained on these test images.",
+    "Temporal blocks with 3-frame guards, same objects/capture sessions; not an independent product test.",
+    "COCO polygon rasterization uses rounded coordinates with OpenCV.",
+    "Object hit: at least 25% of annotated pixels recovered; this is not instance AP.",
+    "Small: mask area <=1024 pixels; thin: 2*area/perimeter <=6 pixels."
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "test_images": 33,
+  "baseline_labels": [
+    0,
+    1
+  ],
+  "baseline_raw": {
+    "precision": 0.7051991150442478,
+    "recall": 0.7241232429362487,
+    "dice": 0.7145359019264448,
+    "iou": 0.555858310626703,
+    "fp_pixels": 4264,
+    "object_recall": {
+      "all": {
+        "hits": 17,
+        "total": 17,
+        "recall": 1.0
+      },
+      "small": {
+        "hits": 12,
+        "total": 12,
+        "recall": 1.0
+      },
+      "thin": {
+        "hits": 3,
+        "total": 3,
+        "recall": 1.0
+      }
+    },
+    "annotated_pixel_recall": {
+      "all": 0.7241232429362487,
+      "small": 0.7067958587735599,
+      "thin": 0.6028446389496718
+    }
+  },
+  "baseline_original_postprocess": {
+    "precision": 0.7051991150442478,
+    "recall": 0.7241232429362487,
+    "dice": 0.7145359019264448,
+    "iou": 0.555858310626703,
+    "fp_pixels": 4264,
+    "object_recall": {
+      "all": {
+        "hits": 17,
+        "total": 17,
+        "recall": 1.0
+      },
+      "small": {
+        "hits": 12,
+        "total": 12,
+        "recall": 1.0
+      },
+      "thin": {
+        "hits": 3,
+        "total": 3,
+        "recall": 1.0
+      }
+    },
+    "annotated_pixel_recall": {
+      "all": 0.7241232429362487,
+      "small": 0.7067958587735599,
+      "thin": 0.6028446389496718
+    }
+  },
+  "limitations": [
+    "Original model training provenance unknown; it may have trained on these test images.",
+    "Temporal blocks with 3-frame guards, same objects/capture sessions; not an independent product test.",
+    "COCO polygon rasterization uses rounded coordinates with OpenCV.",
+    "Object hit: at least 25% of annotated pixels recovered; this is not instance AP.",
+    "Small: mask area <=1024 pixels; thin: 2*area/perimeter <=6 pixels.",
+    "This holdout was inspected during development before low-learning-rate training and the change to 512-pixel tiles; final results are a development benchmark, not a pristine independent test."
+  ],
+  "new_model": {
+    "precision": 0.5998265626042292,
+    "recall": 0.6383643333806617,
+    "dice": 0.6184957182652956,
+    "iou": 0.447697286532238,
+    "fp_pixels": 5999,
+    "object_recall": {
+      "all": {
+        "hits": 16,
+        "total": 17,
+        "recall": 0.9411764705882353
+      },
+      "small": {
+        "hits": 11,
+        "total": 12,
+        "recall": 0.9166666666666666
+      },
+      "thin": {
+        "hits": 2,
+        "total": 3,
+        "recall": 0.6666666666666666
+      }
+    },
+    "annotated_pixel_recall": {
+      "all": 0.6383643333806617,
+      "small": 0.6947172816564906,
+      "thin": 0.8555798687089715
+    }
+  },
+  "threshold": 0.8,
+  "selected_epoch": 51,
+  "selection": "Best validation pixel Dice; threshold chosen on validation only.",
+  "onnx_cpu_seconds_per_image": 0.7984834728818951,
+  "new_model_pytorch": {
+    "precision": 0.6003069941270689,
+    "recall": 0.6385773108050546,
+    "dice": 0.6188510491916065,
+    "iou": 0.44806973848069737,
+    "fp_pixels": 5989,
+    "object_recall": {
+      "all": {
+        "hits": 16,
+        "total": 17,
+        "recall": 0.9411764705882353
+      },
+      "small": {
+        "hits": 11,
+        "total": 12,
+        "recall": 0.9166666666666666
+      },
+      "thin": {
+        "hits": 2,
+        "total": 3,
+        "recall": 0.6666666666666666
+      }
+    },
+    "annotated_pixel_recall": {
+      "all": 0.6385773108050546,
+      "small": 0.6951154765065038,
+      "thin": 0.8555798687089715
+    }
+  },
+  "sensitive_threshold": 0.1,
+  "sensitive_validation": {
+    "precision": 0.6003997786939372,
+    "recall": 0.8602296264095942,
+    "dice": 0.7072042716895457,
+    "iou": 0.5470348147064085,
+    "fp_pixels": 22390,
+    "object_recall": {
+      "all": {
+        "hits": 47,
+        "total": 49,
+        "recall": 0.9591836734693877
+      },
+      "small": {
+        "hits": 34,
+        "total": 36,
+        "recall": 0.9444444444444444
+      },
+      "thin": {
+        "hits": 16,
+        "total": 18,
+        "recall": 0.8888888888888888
+      }
+    },
+    "annotated_pixel_recall": {
+      "all": 0.8602296264095942,
+      "small": 0.8711886980925653,
+      "thin": 0.8291245791245792
+    }
+  },
+  "new_model_sensitive": {
+    "precision": 0.4941735002157963,
+    "recall": 0.7315774527900043,
+    "dice": 0.5898852285411718,
+    "iou": 0.41832426727287486,
+    "fp_pixels": 10548,
+    "object_recall": {
+      "all": {
+        "hits": 16,
+        "total": 17,
+        "recall": 0.9411764705882353
+      },
+      "small": {
+        "hits": 11,
+        "total": 12,
+        "recall": 0.9166666666666666
+      },
+      "thin": {
+        "hits": 2,
+        "total": 3,
+        "recall": 0.6666666666666666
+      }
+    },
+    "annotated_pixel_recall": {
+      "all": 0.7315774527900043,
+      "small": 0.801831696310061,
+      "thin": 0.8949671772428884
+    }
+  },
+  "new_model_display_filter": {
+    "precision": 0.5999065981719928,
+    "recall": 0.6383643333806617,
+    "dice": 0.6185382631126397,
+    "iou": 0.4477418712343773,
+    "fp_pixels": 5997,
+    "object_recall": {
+      "all": {
+        "hits": 16,
+        "total": 17,
+        "recall": 0.9411764705882353
+      },
+      "small": {
+        "hits": 11,
+        "total": 12,
+        "recall": 0.9166666666666666
+      },
+      "thin": {
+        "hits": 2,
+        "total": 3,
+        "recall": 0.6666666666666666
+      }
+    },
+    "annotated_pixel_recall": {
+      "all": 0.6383643333806617,
+      "small": 0.6947172816564906,
+      "thin": 0.8555798687089715
+    }
+  }
+}

@@ -1,0 +1,2090 @@
+[
+  {
+    "epoch": 1,
+    "loss": 1.1706516325473786,
+    "threshold": 0.2,
+    "validation": {
+      "precision": 0.0051854310130258026,
+      "recall": 0.0031963587081596644,
+      "dice": 0.003954882698179172,
+      "iou": 0.0019813593710372814,
+      "fp_pixels": 23981,
+      "object_recall": {
+        "all": {
+          "hits": 1,
+          "total": 49,
+          "recall": 0.02040816326530612
+        },
+        "small": {
+          "hits": 1,
+          "total": 36,
+          "recall": 0.027777777777777776
+        },
+        "thin": {
+          "hits": 0,
+          "total": 18,
+          "recall": 0.0
+        }
+      }
+    },
+    "elapsed_seconds": 63.9
+  },
+  {
+    "epoch": 2,
+    "loss": 1.0368988670408725,
+    "threshold": 0.4,
+    "validation": {
+      "precision": 0.20223390099329291,
+      "recall": 0.3847393049837625,
+      "dice": 0.2651137384807852,
+      "iou": 0.15281332520820637,
+      "fp_pixels": 59353,
+      "object_recall": {
+        "all": {
+          "hits": 28,
+          "total": 49,
+          "recall": 0.5714285714285714
+        },
+        "small": {
+          "hits": 20,
+          "total": 36,
+          "recall": 0.5555555555555556
+        },
+        "thin": {
+          "hits": 7,
+          "total": 18,
+          "recall": 0.3888888888888889
+        }
+      }
+    },
+    "elapsed_seconds": 70.9
+  },
+  {
+    "epoch": 3,
+    "loss": 0.8557751655578614,
+    "threshold": 0.4,
+    "validation": {
+      "precision": 0.3931550842787374,
+      "recall": 0.5290357225049224,
+      "dice": 0.4510847051128311,
+      "iou": 0.29122619332498134,
+      "fp_pixels": 31934,
+      "object_recall": {
+        "all": {
+          "hits": 40,
+          "total": 49,
+          "recall": 0.8163265306122449
+        },
+        "small": {
+          "hits": 27,
+          "total": 36,
+          "recall": 0.75
+        },
+        "thin": {
+          "hits": 14,
+          "total": 18,
+          "recall": 0.7777777777777778
+        }
+      }
+    },
+    "elapsed_seconds": 77.7
+  },
+  {
+    "epoch": 4,
+    "loss": 0.6757805541157722,
+    "threshold": 0.7,
+    "validation": {
+      "precision": 0.34259502654960305,
+      "recall": 0.6665302886951185,
+      "dice": 0.45257007925966436,
+      "iou": 0.2924656381486676,
+      "fp_pixels": 50018,
+      "object_recall": {
+        "all": {
+          "hits": 43,
+          "total": 49,
+          "recall": 0.8775510204081632
+        },
+        "small": {
+          "hits": 30,
+          "total": 36,
+          "recall": 0.8333333333333334
+        },
+        "thin": {
+          "hits": 14,
+          "total": 18,
+          "recall": 0.7777777777777778
+        }
+      }
+    },
+    "elapsed_seconds": 84.8
+  },
+  {
+    "epoch": 5,
+    "loss": 0.5448639988899231,
+    "threshold": 0.7,
+    "validation": {
+      "precision": 0.5661996743784045,
+      "recall": 0.7203058276011968,
+      "dice": 0.6340228229309686,
+      "iou": 0.4641533062004647,
+      "fp_pixels": 21582,
+      "object_recall": {
+        "all": {
+          "hits": 43,
+          "total": 49,
+          "recall": 0.8775510204081632
+        },
+        "small": {
+          "hits": 31,
+          "total": 36,
+          "recall": 0.8611111111111112
+        },
+        "thin": {
+          "hits": 13,
+          "total": 18,
+          "recall": 0.7222222222222222
+        }
+      }
+    },
+    "elapsed_seconds": 91.6
+  },
+  {
+    "epoch": 6,
+    "loss": 0.43012936115264894,
+    "threshold": 0.7,
+    "validation": {
+      "precision": 0.6309998655492314,
+      "recall": 0.720050118904544,
+      "dice": 0.6725902571268197,
+      "iou": 0.5066937776658149,
+      "fp_pixels": 16467,
+      "object_recall": {
+        "all": {
+          "hits": 45,
+          "total": 49,
+          "recall": 0.9183673469387755
+        },
+        "small": {
+          "hits": 32,
+          "total": 36,
+          "recall": 0.8888888888888888
+        },
+        "thin": {
+          "hits": 14,
+          "total": 18,
+          "recall": 0.7777777777777778
+        }
+      }
+    },
+    "elapsed_seconds": 98.3
+  },
+  {
+    "epoch": 7,
+    "loss": 0.43592356890439987,
+    "threshold": 0.7,
+    "validation": {
+      "precision": 0.3457258900429421,
+      "recall": 0.8358350167489196,
+      "dice": 0.4891323052980479,
+      "iou": 0.32374264603926073,
+      "fp_pixels": 61859,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      }
+    },
+    "elapsed_seconds": 105.3
+  },
+  {
+    "epoch": 8,
+    "loss": 0.3886607214808464,
+    "threshold": 0.7,
+    "validation": {
+      "precision": 0.5611525740705466,
+      "recall": 0.8286496023729767,
+      "dice": 0.6691583381514826,
+      "iou": 0.5028083785880527,
+      "fp_pixels": 25343,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      }
+    },
+    "elapsed_seconds": 111.9
+  },
+  {
+    "epoch": 9,
+    "loss": 0.36901400685310365,
+    "threshold": 0.7,
+    "validation": {
+      "precision": 0.6485243303915311,
+      "recall": 0.7534968164267267,
+      "dice": 0.6970808099924299,
+      "iou": 0.5350146159013744,
+      "fp_pixels": 15970,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      }
+    },
+    "elapsed_seconds": 119.3
+  },
+  {
+    "epoch": 10,
+    "loss": 0.3817601680755615,
+    "threshold": 0.5,
+    "validation": {
+      "precision": 0.6619432304771995,
+      "recall": 0.7668703812616667,
+      "dice": 0.7105540615781929,
+      "iou": 0.551053782408173,
+      "fp_pixels": 15316,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      }
+    },
+    "elapsed_seconds": 126.5
+  },
+  {
+    "epoch": 11,
+    "loss": 0.3792096361517906,
+    "threshold": 0.7,
+    "validation": {
+      "precision": 0.6386154135574089,
+      "recall": 0.7812412100135525,
+      "dice": 0.7027648709573538,
+      "iou": 0.5417405489751046,
+      "fp_pixels": 17289,
+      "object_recall": {
+        "all": {
+          "hits": 45,
+          "total": 49,
+          "recall": 0.9183673469387755
+        },
+        "small": {
+          "hits": 32,
+          "total": 36,
+          "recall": 0.8888888888888888
+        },
+        "thin": {
+          "hits": 14,
+          "total": 18,
+          "recall": 0.7777777777777778
+        }
+      }
+    },
+    "elapsed_seconds": 133.2
+  },
+  {
+    "epoch": 12,
+    "loss": 0.37319070771336554,
+    "threshold": 0.7,
+    "validation": {
+      "precision": 0.586006943119826,
+      "recall": 0.7855882578566497,
+      "dice": 0.6712770257721259,
+      "iou": 0.5052046504744208,
+      "fp_pixels": 21704,
+      "object_recall": {
+        "all": {
+          "hits": 46,
+          "total": 49,
+          "recall": 0.9387755102040817
+        },
+        "small": {
+          "hits": 33,
+          "total": 36,
+          "recall": 0.9166666666666666
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      }
+    },
+    "elapsed_seconds": 139.5
+  },
+  {
+    "epoch": 13,
+    "loss": 0.3314803972840309,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6636622173294803,
+      "recall": 0.7399442555041297,
+      "dice": 0.6997303800070125,
+      "iou": 0.5381425277095886,
+      "fp_pixels": 14665,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7399442555041297,
+        "small": 0.7530323930932787,
+        "thin": 0.7261784511784511
+      }
+    },
+    "elapsed_seconds": 63.9,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 14,
+    "loss": 0.340187855809927,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.5815692784005073,
+      "recall": 0.7973508579026772,
+      "dice": 0.6725766791769121,
+      "iou": 0.5066783659939553,
+      "fp_pixels": 22435,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7973508579026772,
+        "small": 0.8166294058887885,
+        "thin": 0.8044612794612794
+      }
+    },
+    "elapsed_seconds": 71.4,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 15,
+    "loss": 0.3293103285133839,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6582555360122672,
+      "recall": 0.7464392563991101,
+      "dice": 0.6995794039758906,
+      "iou": 0.5379639526740628,
+      "fp_pixels": 15155,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7464392563991101,
+        "small": 0.7631165865956333,
+        "thin": 0.7191919191919192
+      }
+    },
+    "elapsed_seconds": 78.7,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 16,
+    "loss": 0.34186844900250435,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6393106698633225,
+      "recall": 0.797785562686987,
+      "dice": 0.7098102561769122,
+      "iou": 0.5501595866617291,
+      "fp_pixels": 17602,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.797785562686987,
+        "small": 0.8140607905627171,
+        "thin": 0.798989898989899
+      }
+    },
+    "elapsed_seconds": 86.2,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 17,
+    "loss": 0.32731176242232324,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6772283493039234,
+      "recall": 0.7662566803897001,
+      "dice": 0.7189970607642013,
+      "iou": 0.5612766674783195,
+      "fp_pixels": 14282,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7662566803897001,
+        "small": 0.7877086999952433,
+        "thin": 0.7526936026936027
+      }
+    },
+    "elapsed_seconds": 94.3,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 18,
+    "loss": 0.31703402325510976,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6806691959592266,
+      "recall": 0.761551640371289,
+      "dice": 0.7188423987159218,
+      "iou": 0.5610881893027374,
+      "fp_pixels": 13972,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.761551640371289,
+        "small": 0.7815249964324787,
+        "thin": 0.7515993265993266
+      }
+    },
+    "elapsed_seconds": 101.7,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 19,
+    "loss": 0.31841925233602525,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.699611100441713,
+      "recall": 0.7452118546551768,
+      "dice": 0.7216918638485446,
+      "iou": 0.5645679969004261,
+      "fp_pixels": 12513,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7452118546551768,
+        "small": 0.7613566094277696,
+        "thin": 0.731986531986532
+      }
+    },
+    "elapsed_seconds": 109.1,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 20,
+    "loss": 0.316589579731226,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.690369140670033,
+      "recall": 0.7656429795177334,
+      "dice": 0.7260602827420646,
+      "iou": 0.5699329983249581,
+      "fp_pixels": 13429,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7656429795177334,
+        "small": 0.7839509109071018,
+        "thin": 0.7452861952861953
+      }
+    },
+    "elapsed_seconds": 116.7,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 21,
+    "loss": 0.32528078481554984,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6778959149412424,
+      "recall": 0.7744137878129235,
+      "dice": 0.7229476498531904,
+      "iou": 0.5661065106454568,
+      "fp_pixels": 14390,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7744137878129235,
+        "small": 0.7930837653998002,
+        "thin": 0.7760942760942761
+      }
+    },
+    "elapsed_seconds": 124.3,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 22,
+    "loss": 0.3040816508233547,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6641024539086338,
+      "recall": 0.7902932978750608,
+      "dice": 0.7217233930760698,
+      "iou": 0.5646065876249109,
+      "fp_pixels": 15632,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7902932978750608,
+        "small": 0.8121105455929221,
+        "thin": 0.8007575757575758
+      }
+    },
+    "elapsed_seconds": 131.8,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 23,
+    "loss": 0.32027590051293375,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6832732815964523,
+      "recall": 0.7564630373078989,
+      "dice": 0.7180078395204058,
+      "iou": 0.5600719424460432,
+      "fp_pixels": 13713,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7564630373078989,
+        "small": 0.7657327688721876,
+        "thin": 0.7353535353535353
+      }
+    },
+    "elapsed_seconds": 139.1,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 24,
+    "loss": 0.30619397908449175,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.687189483443079,
+      "recall": 0.7392027002838366,
+      "dice": 0.7122477640623845,
+      "iou": 0.5530937894616003,
+      "fp_pixels": 13159,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7392027002838366,
+        "small": 0.7570755838843172,
+        "thin": 0.7036195286195286
+      }
+    },
+    "elapsed_seconds": 146.6,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 25,
+    "loss": 0.3043405458331108,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6571300371778984,
+      "recall": 0.7864320965556039,
+      "dice": 0.7159901756509796,
+      "iou": 0.5576204808354789,
+      "fp_pixels": 16047,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7864320965556039,
+        "small": 0.7963658849831138,
+        "thin": 0.7796296296296297
+      }
+    },
+    "elapsed_seconds": 154.0,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 26,
+    "loss": 0.30793209075927735,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6597190859000993,
+      "recall": 0.7470529572710768,
+      "dice": 0.7006751328080968,
+      "iou": 0.5392609273479031,
+      "fp_pixels": 15069,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7470529572710768,
+        "small": 0.7656852019217048,
+        "thin": 0.7087542087542088
+      }
+    },
+    "elapsed_seconds": 161.5,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 27,
+    "loss": 0.2966833680868149,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6454816494499034,
+      "recall": 0.7861252461196205,
+      "dice": 0.7088949097826713,
+      "iou": 0.549060580082869,
+      "fp_pixels": 16885,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7861252461196205,
+        "small": 0.7976977595966322,
+        "thin": 0.7722222222222223
+      }
+    },
+    "elapsed_seconds": 168.9,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 28,
+    "loss": 0.2950228787958622,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.670598279077082,
+      "recall": 0.7632648886388627,
+      "dice": 0.7139371905570571,
+      "iou": 0.5551339991444885,
+      "fp_pixels": 14662,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7632648886388627,
+        "small": 0.7693478571088808,
+        "thin": 0.752020202020202
+      }
+    },
+    "elapsed_seconds": 176.7,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 29,
+    "loss": 0.2949322834610939,
+    "threshold": 0.5,
+    "validation": {
+      "precision": 0.6601217525508016,
+      "recall": 0.7874805022118803,
+      "dice": 0.7181986730255716,
+      "iou": 0.5603042046467623,
+      "fp_pixels": 15856,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7874805022118803,
+        "small": 0.7987917994577368,
+        "thin": 0.790993265993266
+      }
+    },
+    "elapsed_seconds": 184.2,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 30,
+    "loss": 0.2904133811593056,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6755462503062566,
+      "recall": 0.775564476947861,
+      "dice": 0.7221084710251893,
+      "iou": 0.5650780638670492,
+      "fp_pixels": 14567,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.775564476947861,
+        "small": 0.798744232507254,
+        "thin": 0.7894781144781144
+      }
+    },
+    "elapsed_seconds": 191.7,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 31,
+    "loss": 0.2911511018872261,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6470790083211804,
+      "recall": 0.7715242795407472,
+      "dice": 0.703843237884178,
+      "iou": 0.5430232348865252,
+      "fp_pixels": 16456,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7715242795407472,
+        "small": 0.7653046663178423,
+        "thin": 0.7481481481481481
+      }
+    },
+    "elapsed_seconds": 199.2,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 32,
+    "loss": 0.28615028113126756,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.652055783150432,
+      "recall": 0.7855115452476539,
+      "dice": 0.7125890185344128,
+      "iou": 0.5535054685670012,
+      "fp_pixels": 16392,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7855115452476539,
+        "small": 0.7939399705084907,
+        "thin": 0.7785353535353535
+      }
+    },
+    "elapsed_seconds": 206.6,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 33,
+    "loss": 0.2801480688154697,
+    "threshold": 0.4,
+    "validation": {
+      "precision": 0.6491457800511509,
+      "recall": 0.8112869818702534,
+      "dice": 0.7212157032120207,
+      "iou": 0.5639854235179095,
+      "fp_pixels": 17148,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8112869818702534,
+        "small": 0.8303286876278362,
+        "thin": 0.8182659932659933
+      }
+    },
+    "elapsed_seconds": 214.0,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 34,
+    "loss": 0.2840869098901749,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6830251792792174,
+      "recall": 0.7623187664612473,
+      "dice": 0.7204968944099379,
+      "iou": 0.5631067961165048,
+      "fp_pixels": 13835,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7623187664612473,
+        "small": 0.7779099081957855,
+        "thin": 0.759006734006734
+      }
+    },
+    "elapsed_seconds": 221.3,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 35,
+    "loss": 0.28969771042466164,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6844507977497003,
+      "recall": 0.7590968368834224,
+      "dice": 0.7198438390378157,
+      "iou": 0.5623093970791582,
+      "fp_pixels": 13686,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7590968368834224,
+        "small": 0.7622128145364601,
+        "thin": 0.7550505050505051
+      }
+    },
+    "elapsed_seconds": 228.6,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 36,
+    "loss": 0.2686155907809734,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6750693802035153,
+      "recall": 0.7464136855294449,
+      "dice": 0.70895114576123,
+      "iou": 0.5491280546306225,
+      "fp_pixels": 14050,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7464136855294449,
+        "small": 0.7436141368976835,
+        "thin": 0.7371212121212121
+      }
+    },
+    "elapsed_seconds": 236.0,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 37,
+    "loss": 0.31648384109139444,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6761482138895052,
+      "recall": 0.779246682179661,
+      "dice": 0.724045760718486,
+      "iou": 0.5674543321602145,
+      "fp_pixels": 14596,
+      "object_recall": {
+        "all": {
+          "hits": 46,
+          "total": 49,
+          "recall": 0.9387755102040817
+        },
+        "small": {
+          "hits": 33,
+          "total": 36,
+          "recall": 0.9166666666666666
+        },
+        "thin": {
+          "hits": 15,
+          "total": 18,
+          "recall": 0.8333333333333334
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.779246682179661,
+        "small": 0.7886600390048994,
+        "thin": 0.7490740740740741
+      }
+    },
+    "elapsed_seconds": 70.1,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 38,
+    "loss": 0.28030032888054845,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6911688556230288,
+      "recall": 0.7508885877208684,
+      "dice": 0.7197921390315346,
+      "iou": 0.5622463046641648,
+      "fp_pixels": 13121,
+      "object_recall": {
+        "all": {
+          "hits": 45,
+          "total": 49,
+          "recall": 0.9183673469387755
+        },
+        "small": {
+          "hits": 32,
+          "total": 36,
+          "recall": 0.8888888888888888
+        },
+        "thin": {
+          "hits": 14,
+          "total": 18,
+          "recall": 0.7777777777777778
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7508885877208684,
+        "small": 0.7634019882985302,
+        "thin": 0.702946127946128
+      }
+    },
+    "elapsed_seconds": 79.3,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 39,
+    "loss": 0.2916697204113007,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.659819693959966,
+      "recall": 0.7729306773723374,
+      "dice": 0.7119103134788856,
+      "iou": 0.5526869137518056,
+      "fp_pixels": 15584,
+      "object_recall": {
+        "all": {
+          "hits": 46,
+          "total": 49,
+          "recall": 0.9387755102040817
+        },
+        "small": {
+          "hits": 33,
+          "total": 36,
+          "recall": 0.9166666666666666
+        },
+        "thin": {
+          "hits": 15,
+          "total": 18,
+          "recall": 0.8333333333333334
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7729306773723374,
+        "small": 0.7956048137753888,
+        "thin": 0.7542929292929293
+      }
+    },
+    "elapsed_seconds": 88.0,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 40,
+    "loss": 0.29430093467235563,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6524128199097732,
+      "recall": 0.780269516966272,
+      "dice": 0.7106360185379259,
+      "iou": 0.551152373383426,
+      "fp_pixels": 16257,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.780269516966272,
+        "small": 0.7930837653998002,
+        "thin": 0.7760942760942761
+      }
+    },
+    "elapsed_seconds": 96.9,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 41,
+    "loss": 0.30170604661107064,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6917006413465894,
+      "recall": 0.7418620707290255,
+      "dice": 0.7159037631091919,
+      "iou": 0.5575156616318844,
+      "fp_pixels": 12931,
+      "object_recall": {
+        "all": {
+          "hits": 46,
+          "total": 49,
+          "recall": 0.9387755102040817
+        },
+        "small": {
+          "hits": 33,
+          "total": 36,
+          "recall": 0.9166666666666666
+        },
+        "thin": {
+          "hits": 15,
+          "total": 18,
+          "recall": 0.8333333333333334
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7418620707290255,
+        "small": 0.7537934643010037,
+        "thin": 0.6998316498316498
+      }
+    },
+    "elapsed_seconds": 105.6,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 42,
+    "loss": 0.29034130573272704,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6558801149814001,
+      "recall": 0.7934896565832203,
+      "dice": 0.7181522581839642,
+      "iou": 0.5602477070845671,
+      "fp_pixels": 16281,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7934896565832203,
+        "small": 0.8106359701279551,
+        "thin": 0.7819023569023569
+      }
+    },
+    "elapsed_seconds": 114.2,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 43,
+    "loss": 0.2886233597993851,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.670831394962451,
+      "recall": 0.7743370752039277,
+      "dice": 0.7188775994682366,
+      "iou": 0.561131082533447,
+      "fp_pixels": 14859,
+      "object_recall": {
+        "all": {
+          "hits": 46,
+          "total": 49,
+          "recall": 0.9387755102040817
+        },
+        "small": {
+          "hits": 33,
+          "total": 36,
+          "recall": 0.9166666666666666
+        },
+        "thin": {
+          "hits": 15,
+          "total": 18,
+          "recall": 0.8333333333333334
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7743370752039277,
+        "small": 0.783142272748894,
+        "thin": 0.7656565656565657
+      }
+    },
+    "elapsed_seconds": 122.9,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 44,
+    "loss": 0.29689119532704356,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6834035421479367,
+      "recall": 0.771600992149743,
+      "dice": 0.7248291517036788,
+      "iou": 0.5684172851599292,
+      "fp_pixels": 13979,
+      "object_recall": {
+        "all": {
+          "hits": 46,
+          "total": 49,
+          "recall": 0.9387755102040817
+        },
+        "small": {
+          "hits": 33,
+          "total": 36,
+          "recall": 0.9166666666666666
+        },
+        "thin": {
+          "hits": 15,
+          "total": 18,
+          "recall": 0.8333333333333334
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.771600992149743,
+        "small": 0.7808590591257194,
+        "thin": 0.773063973063973
+      }
+    },
+    "elapsed_seconds": 131.7,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 45,
+    "loss": 0.2945296637713909,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6973021968847649,
+      "recall": 0.7475132329250518,
+      "dice": 0.721535233864001,
+      "iou": 0.5643763152306118,
+      "fp_pixels": 12690,
+      "object_recall": {
+        "all": {
+          "hits": 45,
+          "total": 49,
+          "recall": 0.9183673469387755
+        },
+        "small": {
+          "hits": 32,
+          "total": 36,
+          "recall": 0.8888888888888888
+        },
+        "thin": {
+          "hits": 14,
+          "total": 18,
+          "recall": 0.7777777777777778
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7475132329250518,
+        "small": 0.7484659658469296,
+        "thin": 0.7063973063973064
+      }
+    },
+    "elapsed_seconds": 140.5,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 46,
+    "loss": 0.27646690532565116,
+    "threshold": 0.5,
+    "validation": {
+      "precision": 0.6776632148688242,
+      "recall": 0.7747717799882374,
+      "dice": 0.7229711995036866,
+      "iou": 0.5661353911694912,
+      "fp_pixels": 14412,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7747717799882374,
+        "small": 0.7838082100556534,
+        "thin": 0.7433501683501683
+      }
+    },
+    "elapsed_seconds": 149.3,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 47,
+    "loss": 0.28391816318035124,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6459587549634943,
+      "recall": 0.773723374331961,
+      "dice": 0.7040919615120594,
+      "iou": 0.5433193873336805,
+      "fp_pixels": 16584,
+      "object_recall": {
+        "all": {
+          "hits": 46,
+          "total": 49,
+          "recall": 0.9387755102040817
+        },
+        "small": {
+          "hits": 33,
+          "total": 36,
+          "recall": 0.9166666666666666
+        },
+        "thin": {
+          "hits": 15,
+          "total": 18,
+          "recall": 0.8333333333333334
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.773723374331961,
+        "small": 0.7867097940351044,
+        "thin": 0.757996632996633
+      }
+    },
+    "elapsed_seconds": 157.9,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 48,
+    "loss": 0.2805230677127838,
+    "threshold": 0.5,
+    "validation": {
+      "precision": 0.6600181519578183,
+      "recall": 0.7810110721865651,
+      "dice": 0.7154351568813464,
+      "iou": 0.5569474835886215,
+      "fp_pixels": 15733,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7810110721865651,
+        "small": 0.7857584550254483,
+        "thin": 0.7584175084175084
+      }
+    },
+    "elapsed_seconds": 166.5,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 49,
+    "loss": 0.27619354873895646,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.645525199681371,
+      "recall": 0.7667169560436751,
+      "dice": 0.7009210341764458,
+      "iou": 0.5395522925214137,
+      "fp_pixels": 16465,
+      "object_recall": {
+        "all": {
+          "hits": 46,
+          "total": 49,
+          "recall": 0.9387755102040817
+        },
+        "small": {
+          "hits": 33,
+          "total": 36,
+          "recall": 0.9166666666666666
+        },
+        "thin": {
+          "hits": 15,
+          "total": 18,
+          "recall": 0.8333333333333334
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7667169560436751,
+        "small": 0.7606906721210103,
+        "thin": 0.7451178451178451
+      }
+    },
+    "elapsed_seconds": 174.9,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 50,
+    "loss": 0.28658919036388397,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6777583584901378,
+      "recall": 0.7635461682051806,
+      "dice": 0.7180991775287384,
+      "iou": 0.560183100705388,
+      "fp_pixels": 14197,
+      "object_recall": {
+        "all": {
+          "hits": 46,
+          "total": 49,
+          "recall": 0.9387755102040817
+        },
+        "small": {
+          "hits": 33,
+          "total": 36,
+          "recall": 0.9166666666666666
+        },
+        "thin": {
+          "hits": 15,
+          "total": 18,
+          "recall": 0.8333333333333334
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7635461682051806,
+        "small": 0.7615944441801836,
+        "thin": 0.718939393939394
+      }
+    },
+    "elapsed_seconds": 183.4,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 51,
+    "loss": 0.2814360797405243,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6939902117690719,
+      "recall": 0.7650804203850973,
+      "dice": 0.7278034541474094,
+      "iou": 0.5720841300191205,
+      "fp_pixels": 13193,
+      "object_recall": {
+        "all": {
+          "hits": 46,
+          "total": 49,
+          "recall": 0.9387755102040817
+        },
+        "small": {
+          "hits": 33,
+          "total": 36,
+          "recall": 0.9166666666666666
+        },
+        "thin": {
+          "hits": 15,
+          "total": 18,
+          "recall": 0.8333333333333334
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7650804203850973,
+        "small": 0.7693954240593636,
+        "thin": 0.7460437710437711
+      }
+    },
+    "elapsed_seconds": 192.0,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 52,
+    "loss": 0.267495471984148,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6864227327580318,
+      "recall": 0.7708850077991153,
+      "dice": 0.7262062486450027,
+      "iou": 0.5701128992605761,
+      "fp_pixels": 13772,
+      "object_recall": {
+        "all": {
+          "hits": 46,
+          "total": 49,
+          "recall": 0.9387755102040817
+        },
+        "small": {
+          "hits": 33,
+          "total": 36,
+          "recall": 0.9166666666666666
+        },
+        "thin": {
+          "hits": 15,
+          "total": 18,
+          "recall": 0.8333333333333334
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7708850077991153,
+        "small": 0.7677781477429482,
+        "thin": 0.7606060606060606
+      }
+    },
+    "elapsed_seconds": 201.0,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 53,
+    "loss": 0.2733970992267132,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6763324670587699,
+      "recall": 0.7586365612294474,
+      "dice": 0.7151241970279488,
+      "iou": 0.5565706781727793,
+      "fp_pixels": 14198,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7586365612294474,
+        "small": 0.7642106264567379,
+        "thin": 0.7322390572390572
+      }
+    },
+    "elapsed_seconds": 210.1,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 54,
+    "loss": 0.2788462728261948,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.683221538178811,
+      "recall": 0.760528805584678,
+      "dice": 0.7198054187490168,
+      "iou": 0.5622625101612568,
+      "fp_pixels": 13790,
+      "object_recall": {
+        "all": {
+          "hits": 46,
+          "total": 49,
+          "recall": 0.9387755102040817
+        },
+        "small": {
+          "hits": 33,
+          "total": 36,
+          "recall": 0.9166666666666666
+        },
+        "thin": {
+          "hits": 15,
+          "total": 18,
+          "recall": 0.8333333333333334
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.760528805584678,
+        "small": 0.7598344670123198,
+        "thin": 0.7601851851851852
+      }
+    },
+    "elapsed_seconds": 218.9,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 55,
+    "loss": 0.26216489002108573,
+    "threshold": 0.5,
+    "validation": {
+      "precision": 0.6725062645623598,
+      "recall": 0.7823407574091595,
+      "dice": 0.7232775026299926,
+      "iou": 0.5665111283931415,
+      "fp_pixels": 14899,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7823407574091595,
+        "small": 0.7861389906293108,
+        "thin": 0.7681818181818182
+      }
+    },
+    "elapsed_seconds": 227.6,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 56,
+    "loss": 0.26884972453117373,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6822228404506886,
+      "recall": 0.7524739816401156,
+      "dice": 0.7156284578251724,
+      "iou": 0.5571818078539781,
+      "fp_pixels": 13707,
+      "object_recall": {
+        "all": {
+          "hits": 46,
+          "total": 49,
+          "recall": 0.9387755102040817
+        },
+        "small": {
+          "hits": 33,
+          "total": 36,
+          "recall": 0.9166666666666666
+        },
+        "thin": {
+          "hits": 15,
+          "total": 18,
+          "recall": 0.8333333333333334
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7524739816401156,
+        "small": 0.7453741140655472,
+        "thin": 0.7393097643097644
+      }
+    },
+    "elapsed_seconds": 236.4,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 57,
+    "loss": 0.25876046866178515,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.6775084795255958,
+      "recall": 0.7712685708440944,
+      "dice": 0.721354602635544,
+      "iou": 0.5641553194673051,
+      "fp_pixels": 14357,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7712685708440944,
+        "small": 0.784616848213861,
+        "thin": 0.7930134680134681
+      }
+    },
+    "elapsed_seconds": 246.7,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 58,
+    "loss": 0.26338317468762396,
+    "threshold": 0.5,
+    "validation": {
+      "precision": 0.6804784863094696,
+      "recall": 0.7651315621244279,
+      "dice": 0.7203264362835373,
+      "iou": 0.5628985834415035,
+      "fp_pixels": 14050,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7651315621244279,
+        "small": 0.7788612472054417,
+        "thin": 0.74503367003367
+      }
+    },
+    "elapsed_seconds": 255.9,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 59,
+    "loss": 0.2643860176205635,
+    "threshold": 0.3,
+    "validation": {
+      "precision": 0.6613891726251276,
+      "recall": 0.794742629196819,
+      "dice": 0.7219596046411689,
+      "iou": 0.5648957632817754,
+      "fp_pixels": 15912,
+      "object_recall": {
+        "all": {
+          "hits": 47,
+          "total": 49,
+          "recall": 0.9591836734693877
+        },
+        "small": {
+          "hits": 34,
+          "total": 36,
+          "recall": 0.9444444444444444
+        },
+        "thin": {
+          "hits": 16,
+          "total": 18,
+          "recall": 0.8888888888888888
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.794742629196819,
+        "small": 0.8035009275555344,
+        "thin": 0.7793771043771044
+      }
+    },
+    "elapsed_seconds": 265.0,
+    "learning_rate": 3e-05
+  },
+  {
+    "epoch": 60,
+    "loss": 0.26262845695018766,
+    "threshold": 0.5,
+    "validation": {
+      "precision": 0.691382672485839,
+      "recall": 0.761551640371289,
+      "dice": 0.7247727632235377,
+      "iou": 0.5683479322913685,
+      "fp_pixels": 13294,
+      "object_recall": {
+        "all": {
+          "hits": 46,
+          "total": 49,
+          "recall": 0.9387755102040817
+        },
+        "small": {
+          "hits": 33,
+          "total": 36,
+          "recall": 0.9166666666666666
+        },
+        "thin": {
+          "hits": 15,
+          "total": 18,
+          "recall": 0.8333333333333334
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.761551640371289,
+        "small": 0.7707748656233648,
+        "thin": 0.7299663299663299
+      }
+    },
+    "elapsed_seconds": 273.8,
+    "learning_rate": 3e-05
+  }
+]
