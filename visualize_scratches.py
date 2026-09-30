@@ -6,8 +6,8 @@ import os
 import argparse
 
 # Config (defaults; override via CLI or env)
-MODEL_PATH = os.environ.get("SCRATCH_MODEL", "model.onnx")
-FALLBACK_VIDEO_PATH = "video.mp4"
+MODEL_PATH = os.environ.get("SCRATCH_MODEL", "one_ai_model.onnx")
+FALLBACK_VIDEO_PATH = "video_one_ai.mp4"
 DEFAULT_OUTPUT_PATH = "video_out_onnx_scratches.mp4"
 DEFAULT_RESULTS_JSON = "onnx_scratches_results.json"
 
