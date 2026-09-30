@@ -1,0 +1,1437 @@
+[
+  {
+    "epoch": 0,
+    "loss": null,
+    "threshold": 0.4,
+    "validation": {
+      "precision": 0.6738239191651483,
+      "recall": 0.8321528115171197,
+      "dice": 0.7446655149136757,
+      "iou": 0.5932008749544294,
+      "fp_pixels": 15753,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8321528115171197,
+        "small": 0.8263330637872806,
+        "thin": 0.8646464646464647
+      }
+    },
+    "elapsed_seconds": 2.59
+  },
+  {
+    "epoch": 1,
+    "loss": 0.351217025021712,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6922489583106088,
+      "recall": 0.8114148362185798,
+      "dice": 0.7471099286605608,
+      "iou": 0.5963092419288157,
+      "fp_pixels": 14107,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8114148362185798,
+        "small": 0.803120391951672,
+        "thin": 0.836026936026936
+      }
+    },
+    "elapsed_seconds": 7.06
+  },
+  {
+    "epoch": 2,
+    "loss": 0.2716871509949366,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.7107737806427763,
+      "recall": 0.786636663512926,
+      "dice": 0.7467835121619654,
+      "iou": 0.5958934624697336,
+      "fp_pixels": 12518,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.786636663512926,
+        "small": 0.782428768491652,
+        "thin": 0.8088383838383838
+      }
+    },
+    "elapsed_seconds": 11.28
+  },
+  {
+    "epoch": 3,
+    "loss": 0.25440818642576535,
+    "threshold": 0.7,
+    "validation": {
+      "precision": 0.701542393399991,
+      "recall": 0.8001892244355231,
+      "dice": 0.747625816778756,
+      "iou": 0.5969668065623808,
+      "fp_pixels": 13313,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8001892244355231,
+        "small": 0.7966988536364934,
+        "thin": 0.8161616161616162
+      }
+    },
+    "elapsed_seconds": 15.5
+  },
+  {
+    "epoch": 4,
+    "loss": 0.25566916515429816,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.7098221475737984,
+      "recall": 0.7888869000434705,
+      "dice": 0.7472689838924549,
+      "iou": 0.5965119201840716,
+      "fp_pixels": 12612,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7888869000434705,
+        "small": 0.7892784093611759,
+        "thin": 0.8091750841750842
+      }
+    },
+    "elapsed_seconds": 19.69
+  },
+  {
+    "epoch": 5,
+    "loss": 0.24831754540403683,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.7012006630527307,
+      "recall": 0.8004449331321758,
+      "dice": 0.7475432542478119,
+      "iou": 0.5968615337680662,
+      "fp_pixels": 13339,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8004449331321758,
+        "small": 0.7999809732198069,
+        "thin": 0.8227272727272728
+      }
+    },
+    "elapsed_seconds": 23.91
+  },
+  {
+    "epoch": 6,
+    "loss": 0.2657572217285633,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.7030999525863042,
+      "recall": 0.796302452246401,
+      "dice": 0.7468044797237344,
+      "iou": 0.5959201638058059,
+      "fp_pixels": 13150,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.796302452246401,
+        "small": 0.7937497027065595,
+        "thin": 0.8122053872053872
+      }
+    },
+    "elapsed_seconds": 28.42
+  },
+  {
+    "epoch": 7,
+    "loss": 0.2582356420656045,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.7053264604810997,
+      "recall": 0.7977599918173217,
+      "dice": 0.7487010883259938,
+      "iou": 0.5983391189275235,
+      "fp_pixels": 13034,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7977599918173217,
+        "small": 0.7959853493792513,
+        "thin": 0.8218013468013468
+      }
+    },
+    "elapsed_seconds": 32.35
+  },
+  {
+    "epoch": 8,
+    "loss": 0.25668485711018246,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6883910826924738,
+      "recall": 0.8148669036233922,
+      "dice": 0.7463085047834284,
+      "iou": 0.5952887992228947,
+      "fp_pixels": 14425,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8148669036233922,
+        "small": 0.8120629786424393,
+        "thin": 0.8421717171717171
+      }
+    },
+    "elapsed_seconds": 36.57
+  },
+  {
+    "epoch": 9,
+    "loss": 0.257181815803051,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.7077882186980956,
+      "recall": 0.7954586135474467,
+      "dice": 0.7490669170940788,
+      "iou": 0.5988065447545717,
+      "fp_pixels": 12843,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7954586135474467,
+        "small": 0.7945107739142844,
+        "thin": 0.8196969696969697
+      }
+    },
+    "elapsed_seconds": 41.12
+  },
+  {
+    "epoch": 10,
+    "loss": 0.25912025620539986,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.7077272727272728,
+      "recall": 0.7962768813767356,
+      "dice": 0.7493953577917625,
+      "iou": 0.5992264321588701,
+      "fp_pixels": 12860,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7962768813767356,
+        "small": 0.7947010417162156,
+        "thin": 0.8207912457912457
+      }
+    },
+    "elapsed_seconds": 45.3
+  },
+  {
+    "epoch": 11,
+    "loss": 0.2538956751426061,
+    "threshold": 0.7,
+    "validation": {
+      "precision": 0.7009690920077886,
+      "recall": 0.8008796379164855,
+      "dice": 0.7476010884613549,
+      "iou": 0.5969352748341846,
+      "fp_pixels": 13361,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8008796379164855,
+        "small": 0.7997431384673929,
+        "thin": 0.8312289562289562
+      }
+    },
+    "elapsed_seconds": 49.53
+  },
+  {
+    "epoch": 12,
+    "loss": 0.26115789661804834,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.7013033466723302,
+      "recall": 0.8021581813997494,
+      "dice": 0.7483480044848398,
+      "iou": 0.5978882366394754,
+      "fp_pixels": 13361,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8021581813997494,
+        "small": 0.7996955715169101,
+        "thin": 0.8275252525252526
+      }
+    },
+    "elapsed_seconds": 53.69
+  },
+  {
+    "epoch": 13,
+    "loss": 0.24507772028446198,
+    "threshold": 0.7,
+    "validation": {
+      "precision": 0.6988470066518847,
+      "recall": 0.8059426701102105,
+      "dice": 0.7485838469485909,
+      "iou": 0.5981893753914479,
+      "fp_pixels": 13582,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8059426701102105,
+        "small": 0.8050230699709842,
+        "thin": 0.833922558922559
+      }
+    },
+    "elapsed_seconds": 57.93
+  },
+  {
+    "epoch": 14,
+    "loss": 0.24273737693826358,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.7035963789114271,
+      "recall": 0.800930779655816,
+      "dice": 0.7491150865780158,
+      "iou": 0.5988681121180834,
+      "fp_pixels": 13195,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.800930779655816,
+        "small": 0.8002663749227037,
+        "thin": 0.8294612794612795
+      }
+    },
+    "elapsed_seconds": 62.39
+  },
+  {
+    "epoch": 15,
+    "loss": 0.2621801699201266,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.703817928053667,
+      "recall": 0.7994732400848953,
+      "dice": 0.7486022818422344,
+      "iou": 0.598212919026481,
+      "fp_pixels": 13157,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7994732400848953,
+        "small": 0.7996955715169101,
+        "thin": 0.8304713804713805
+      }
+    },
+    "elapsed_seconds": 67.13
+  },
+  {
+    "epoch": 16,
+    "loss": 0.25237315967679025,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.7060146277199837,
+      "recall": 0.7948193418058148,
+      "dice": 0.7477896864061203,
+      "iou": 0.5971757925072047,
+      "fp_pixels": 12943,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7948193418058148,
+        "small": 0.7956523807258716,
+        "thin": 0.8266835016835017
+      }
+    },
+    "elapsed_seconds": 71.62
+  },
+  {
+    "epoch": 17,
+    "loss": 0.2595395170152187,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.7013170272812794,
+      "recall": 0.8006495000894981,
+      "dice": 0.7476985899012573,
+      "iou": 0.5970596087105755,
+      "fp_pixels": 13335,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8006495000894981,
+        "small": 0.8007420444275317,
+        "thin": 0.825925925925926
+      }
+    },
+    "elapsed_seconds": 76.03
+  },
+  {
+    "epoch": 18,
+    "loss": 0.26917245934406914,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.7020627802690583,
+      "recall": 0.8006750709591633,
+      "dice": 0.7481333699690588,
+      "iou": 0.5976142761713904,
+      "fp_pixels": 13288,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8006750709591633,
+        "small": 0.8000285401702897,
+        "thin": 0.8318181818181818
+      }
+    },
+    "elapsed_seconds": 81.01
+  },
+  {
+    "epoch": 19,
+    "loss": 0.26094608878095943,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6935452226800078,
+      "recall": 0.8135372184007978,
+      "dice": 0.7487644151565074,
+      "iou": 0.5984200131665569,
+      "fp_pixels": 14058,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8135372184007978,
+        "small": 0.8120629786424393,
+        "thin": 0.8426767676767677
+      }
+    },
+    "elapsed_seconds": 85.66
+  },
+  {
+    "epoch": 20,
+    "loss": 0.2496296651661396,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.7092472724777567,
+      "recall": 0.7929270974505843,
+      "dice": 0.7487564591683972,
+      "iou": 0.5984098496690403,
+      "fp_pixels": 12712,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7929270974505843,
+        "small": 0.7934643010036626,
+        "thin": 0.8227272727272728
+      }
+    },
+    "elapsed_seconds": 90.36
+  },
+  {
+    "epoch": 21,
+    "loss": 0.24925324047605196,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.7079668258356371,
+      "recall": 0.7923645383179482,
+      "dice": 0.7477918818475795,
+      "iou": 0.597178592765326,
+      "fp_pixels": 12782,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7923645383179482,
+        "small": 0.7934643010036626,
+        "thin": 0.826936026936027
+      }
+    },
+    "elapsed_seconds": 94.4
+  },
+  {
+    "epoch": 22,
+    "loss": 0.24847462698817252,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.7026452896849354,
+      "recall": 0.8035134374920091,
+      "dice": 0.7497017702915494,
+      "iou": 0.5996183570270013,
+      "fp_pixels": 13298,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8035134374920091,
+        "small": 0.8030728250011892,
+        "thin": 0.8332491582491582
+      }
+    },
+    "elapsed_seconds": 98.81
+  },
+  {
+    "epoch": 23,
+    "loss": 0.24147771224379538,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.7035690235690236,
+      "recall": 0.8014933387884522,
+      "dice": 0.7493455419152013,
+      "iou": 0.5991627320168983,
+      "fp_pixels": 13206,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8014933387884522,
+        "small": 0.8019787851400847,
+        "thin": 0.8320707070707071
+      }
+    },
+    "elapsed_seconds": 103.26
+  },
+  {
+    "epoch": 24,
+    "loss": 0.2568010506530603,
+    "threshold": 0.7,
+    "validation": {
+      "precision": 0.7022636365667806,
+      "recall": 0.8036157209706702,
+      "dice": 0.7495289656323786,
+      "iou": 0.5993973031221987,
+      "fp_pixels": 13324,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8036157209706702,
+        "small": 0.8039290301098797,
+        "thin": 0.8329124579124579
+      }
+    },
+    "elapsed_seconds": 107.52
+  },
+  {
+    "epoch": 25,
+    "loss": 0.2495362125337124,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6953041272063166,
+      "recall": 0.8128979466591659,
+      "dice": 0.7495166690243787,
+      "iou": 0.5993815754741884,
+      "fp_pixels": 13931,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8128979466591659,
+        "small": 0.8120629786424393,
+        "thin": 0.84503367003367
+      }
+    },
+    "elapsed_seconds": 111.65
+  },
+  {
+    "epoch": 26,
+    "loss": 0.25545346513390543,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.7046904230621859,
+      "recall": 0.7994732400848953,
+      "dice": 0.7490955267508446,
+      "iou": 0.5988431113409566,
+      "fp_pixels": 13102,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7994732400848953,
+        "small": 0.8003139418731865,
+        "thin": 0.8322390572390572
+      }
+    },
+    "elapsed_seconds": 115.79
+  },
+  {
+    "epoch": 27,
+    "loss": 0.24742827738324802,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.7014229636898921,
+      "recall": 0.8041782801033063,
+      "dice": 0.74929416389693,
+      "iou": 0.5990970396616756,
+      "fp_pixels": 13387,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8041782801033063,
+        "small": 0.8037863292584312,
+        "thin": 0.83493265993266
+      }
+    },
+    "elapsed_seconds": 120.01
+  },
+  {
+    "epoch": 28,
+    "loss": 0.2605505327383677,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.7106807242722897,
+      "recall": 0.7928759557112537,
+      "dice": 0.7495316484764978,
+      "iou": 0.5994007345834139,
+      "fp_pixels": 12623,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7928759557112537,
+        "small": 0.7945107739142844,
+        "thin": 0.822979797979798
+      }
+    },
+    "elapsed_seconds": 124.49
+  },
+  {
+    "epoch": 29,
+    "loss": 0.2510204394658407,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6973857935040929,
+      "recall": 0.8103920014319687,
+      "dice": 0.749654054949084,
+      "iou": 0.5995573128511701,
+      "fp_pixels": 13752,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8103920014319687,
+        "small": 0.8099700328211958,
+        "thin": 0.8420875420875421
+      }
+    },
+    "elapsed_seconds": 129.05
+  },
+  {
+    "epoch": 30,
+    "loss": 0.24531424641609192,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6976585387343334,
+      "recall": 0.8099061549083284,
+      "dice": 0.7496035784441342,
+      "iou": 0.5994927412791248,
+      "fp_pixels": 13726,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8099061549083284,
+        "small": 0.8092565285639538,
+        "thin": 0.8417508417508418
+      }
+    },
+    "elapsed_seconds": 133.35
+  },
+  {
+    "epoch": 31,
+    "loss": 0.25927962784965836,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.7000865455029626,
+      "recall": 0.8067097962001688,
+      "dice": 0.7496257573957467,
+      "iou": 0.5995211128425374,
+      "fp_pixels": 13515,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8067097962001688,
+        "small": 0.8058792750796746,
+        "thin": 0.8376262626262626
+      }
+    },
+    "elapsed_seconds": 138.0
+  },
+  {
+    "epoch": 32,
+    "loss": 0.25388940374056496,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6968178621659634,
+      "recall": 0.8108011353466131,
+      "dice": 0.7495006559430807,
+      "iou": 0.5993610948339414,
+      "fp_pixels": 13796,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8108011353466131,
+        "small": 0.8093992294154022,
+        "thin": 0.841919191919192
+      }
+    },
+    "elapsed_seconds": 142.27
+  },
+  {
+    "epoch": 33,
+    "loss": 0.2564206711947918,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.7032560434139122,
+      "recall": 0.8019280435727619,
+      "dice": 0.7493578332397463,
+      "iou": 0.5991784486052733,
+      "fp_pixels": 13233,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8019280435727619,
+        "small": 0.8010750130809113,
+        "thin": 0.8346801346801347
+      }
+    },
+    "elapsed_seconds": 146.47
+  },
+  {
+    "epoch": 34,
+    "loss": 0.2492572322487831,
+    "threshold": 0.9,
+    "validation": {
+      "precision": 0.7112244194859781,
+      "recall": 0.7918275500549774,
+      "dice": 0.7493647605449749,
+      "iou": 0.599187306501548,
+      "fp_pixels": 12573,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.7918275500549774,
+        "small": 0.792417828093041,
+        "thin": 0.8227272727272728
+      }
+    },
+    "elapsed_seconds": 150.69
+  },
+  {
+    "epoch": 35,
+    "loss": 0.2523062817752361,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6972519487382746,
+      "recall": 0.8097015879510062,
+      "dice": 0.7492812437145798,
+      "iou": 0.5990805206599061,
+      "fp_pixels": 13749,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8097015879510062,
+        "small": 0.808447890405746,
+        "thin": 0.8389730639730639
+      }
+    },
+    "elapsed_seconds": 155.06
+  },
+  {
+    "epoch": 36,
+    "loss": 0.25942797735333445,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6972279102538697,
+      "recall": 0.8097271588206715,
+      "dice": 0.7492783114854953,
+      "iou": 0.599076771728026,
+      "fp_pixels": 13751,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8097271588206715,
+        "small": 0.8083051895542976,
+        "thin": 0.8393939393939394
+      }
+    },
+    "elapsed_seconds": 159.27
+  },
+  {
+    "epoch": 37,
+    "loss": 0.26074017534653343,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6954654983570646,
+      "recall": 0.8118239701332243,
+      "dice": 0.7491534622509055,
+      "iou": 0.5989171650097154,
+      "fp_pixels": 13902,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8118239701332243,
+        "small": 0.8104932692765067,
+        "thin": 0.8422558922558923
+      }
+    },
+    "elapsed_seconds": 163.43
+  },
+  {
+    "epoch": 38,
+    "loss": 0.257650849968195,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6989087850550034,
+      "recall": 0.8074257805507965,
+      "dice": 0.7492584770899081,
+      "iou": 0.5990514133940429,
+      "fp_pixels": 13603,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8074257805507965,
+        "small": 0.8061646767825714,
+        "thin": 0.8372053872053872
+      }
+    },
+    "elapsed_seconds": 167.67
+  },
+  {
+    "epoch": 39,
+    "loss": 0.24489534596602122,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.6960289600702062,
+      "recall": 0.8112358401309229,
+      "dice": 0.7492295157462184,
+      "iou": 0.5990143876741815,
+      "fp_pixels": 13855,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8112358401309229,
+        "small": 0.8098273319697474,
+        "thin": 0.8415824915824915
+      }
+    },
+    "elapsed_seconds": 171.88
+  },
+  {
+    "epoch": 40,
+    "loss": 0.25647481555740037,
+    "threshold": 0.8,
+    "validation": {
+      "precision": 0.699412090959512,
+      "recall": 0.8061472370675327,
+      "dice": 0.7489962224703618,
+      "iou": 0.5987161956852021,
+      "fp_pixels": 13549,
+      "object_recall": {
+        "all": {
+          "hits": 48,
+          "total": 49,
+          "recall": 0.9795918367346939
+        },
+        "small": {
+          "hits": 35,
+          "total": 36,
+          "recall": 0.9722222222222222
+        },
+        "thin": {
+          "hits": 17,
+          "total": 18,
+          "recall": 0.9444444444444444
+        }
+      },
+      "annotated_pixel_recall": {
+        "all": 0.8061472370675327,
+        "small": 0.8052609047233982,
+        "thin": 0.8358585858585859
+      }
+    },
+    "elapsed_seconds": 176.08
+  }
+]

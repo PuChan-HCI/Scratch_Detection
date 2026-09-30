@@ -1,0 +1,109 @@
+{
+  "test_images": 33,
+  "threshold": 0.8,
+  "selected_epoch": 22,
+  "parameters": 288262,
+  "trainable_parameters": 2741,
+  "original": {
+    "precision": 0.7051991150442478,
+    "recall": 0.7241232429362487,
+    "dice": 0.7145359019264448,
+    "iou": 0.555858310626703,
+    "fp_pixels": 4264,
+    "object_recall": {
+      "all": {
+        "hits": 17,
+        "total": 17,
+        "recall": 1.0
+      },
+      "small": {
+        "hits": 12,
+        "total": 12,
+        "recall": 1.0
+      },
+      "thin": {
+        "hits": 3,
+        "total": 3,
+        "recall": 1.0
+      }
+    },
+    "annotated_pixel_recall": {
+      "all": 0.7241232429362487,
+      "small": 0.7067958587735599,
+      "thin": 0.6028446389496718
+    }
+  },
+  "lite": {
+    "precision": 0.7669292381015423,
+    "recall": 0.8225188130058214,
+    "dice": 0.7937519268317748,
+    "iou": 0.6580337365820412,
+    "fp_pixels": 3521,
+    "object_recall": {
+      "all": {
+        "hits": 17,
+        "total": 17,
+        "recall": 1.0
+      },
+      "small": {
+        "hits": 12,
+        "total": 12,
+        "recall": 1.0
+      },
+      "thin": {
+        "hits": 3,
+        "total": 3,
+        "recall": 1.0
+      }
+    },
+    "annotated_pixel_recall": {
+      "all": 0.8225188130058214,
+      "small": 0.7965224316432175,
+      "thin": 0.6772428884026258
+    }
+  },
+  "onnx_bytes": 1174373,
+  "original_bytes": 1157553,
+  "previous_large_bytes": 49885085,
+  "onnx_cpu_seconds_per_image": 0.06508845454575776,
+  "onnx_parity": [
+    {
+      "shape": [
+        96,
+        144
+      ],
+      "max_absolute_error": 2.0908191800117493e-07
+    },
+    {
+      "shape": [
+        384,
+        640
+      ],
+      "max_absolute_error": 1.3899352779844776e-07
+    },
+    {
+      "shape": [
+        640,
+        1264
+      ],
+      "max_absolute_error": 1.3825138012180105e-07
+    },
+    {
+      "shape": [
+        808,
+        1288
+      ],
+      "max_absolute_error": 1.3825138012180105e-07
+    }
+  ],
+  "limitations": [
+    "The 33-image development benchmark has been inspected in previous iterations.",
+    "Original backbone weights are reused; their training provenance is unknown and may include all these images. No claim of an independent unseen test.",
+    "143 images train the refinement layers, 33 choose the threshold/checkpoint, 33 are used for development comparison, 24 temporal guard frames are unused.",
+    "All images show the same objects/capture sessions; external data is needed to establish generalization.",
+    "Small: annotated area <=1024 native pixels. Thin: 2*area/perimeter <=6 pixels. Only 12 small and 3 thin objects in this benchmark.",
+    "Object hit means >=25% annotated pixel coverage, not instance AP."
+  ],
+  "gpu_seconds_one_image": 0.010857999994186684,
+  "gpu_onnx_max_error": 0.00017499923706054688
+}

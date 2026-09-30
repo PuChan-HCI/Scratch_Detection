@@ -1,0 +1,12 @@
+{
+  "architecture": "ScratchLite",
+  "threshold": 0.8,
+  "input": "RGB float32 NCHW [1,3,H,W], range 0..1",
+  "output": "Scratch probability float32 [1,1,H,W]",
+  "parameters": 288262,
+  "trainable_parameters": 2741,
+  "selected_epoch": 22,
+  "preprocessing": "Whole image is resized internally for the frozen backbone; refinement uses original-resolution RGB. Do not tile this model.",
+  "min_pixels": 3,
+  "onnx_sha256": "5abdb754f4d74c0a680605d5c8cbaf9b8a24f7291176cd335b9bcaa82e670ab4"
+}
